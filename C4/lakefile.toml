@@ -1,0 +1,35 @@
+name = "C4"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["C4"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+# Mathlib's copyright-header check does not apply to this standalone project.
+weak.linter.style.header = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+# The interval checker: core Lean only (no Mathlib), written so that the kernel can evaluate it.
+[[lean_lib]]
+name = "C4Check"
+
+[[lean_lib]]
+name = "C4"
+
+# The unverified search that writes the hints of the certificates; not part of the proof.
+[[lean_exe]]
+name = "gen"
+root = "Gen"
+
+# The certificates: `decide +kernel` theorems, spread over many modules so that lake checks
+# them in parallel.
+[[lean_lib]]
+name = "C4Cert"
+globs = ["C4Cert.+"]

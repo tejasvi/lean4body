@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite the paper as below."
+title: "lean4body: programs, certificates and Lean formalization for the uniqueness of convex four-body central configurations"
+authors:
+  - family-names: Tomar
+    given-names: Tejasvi Singh
+    orcid: "https://orcid.org/0000-0003-4668-3639"
+version: v1.0
+doi: 10.5281/zenodo.23004297
+date-released: 2026-09-27
+license: Apache-2.0
+repository-code: "https://github.com/tejasvi/lean4body"
+preferred-citation:
+  type: generic
+  title: "Uniqueness of convex central configurations in the planar four-body problem"
+  authors:
+    - family-names: Tomar
+      given-names: Tejasvi Singh
+      orcid: "https://orcid.org/0000-0003-4668-3639"
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.23004307

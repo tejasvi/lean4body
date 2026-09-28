@@ -1,0 +1,7 @@
+direct: coarse grid 28^3, 4315 Z points; best 0.591968 at (np.float64(1.7037037037037037), np.float64(0.9675925925925926), np.float64(0.5833333333333333))
+  local max 0.5926966 at params (np.float64(0.57735), np.float64(0.329953), np.float64(0.57735)), dependent 0.000000
+  local max 0.5926915 at params (np.float64(1.706291), np.float64(0.97018), np.float64(0.562826)), dependent 0.008738
+  local max 0.5926872 at params (1.697347, 0.95979, 0.559734), dependent 0.011845
+  local max 0.5926733 at params (np.float64(1.678063), np.float64(0.937322), np.float64(0.552918)), dependent 0.018676
+  local max 0.5926647 at params (np.float64(1.669276), np.float64(0.927054), np.float64(0.549742)), dependent 0.021850
+  local max 0.5926293 at params (np.float64(1.642556), np.float64(0.895704), np.float64(0.539805)), dependent 0.031748

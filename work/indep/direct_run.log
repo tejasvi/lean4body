@@ -1,0 +1,42 @@
+=== verify.py direct  thresh=3/4  prec=96 bits  workers=16  initial boxes=7840  domain=[(0.5, 1.75, 20), (0.125, 1.0, 14), (0.0, 1.75, 28)]  start 2026-09-27 22:55:36
+  [250/7840]      0.3s  accepted=0 disc_region=250 disc_F=0 fails=0 maxub=None
+  [500/7840]      0.3s  accepted=0 disc_region=584 disc_F=0 fails=0 maxub=None
+  [750/7840]      0.5s  accepted=540 disc_region=1108 disc_F=0 fails=0 maxub=0.7493260975896449
+  [1000/7840]      1.1s  accepted=2602 disc_region=1828 disc_F=0 fails=0 maxub=0.7495351380351114
+  [1250/7840]      1.8s  accepted=5524 disc_region=2326 disc_F=0 fails=0 maxub=0.7499187776216345
+  [1500/7840]      2.7s  accepted=10350 disc_region=2831 disc_F=0 fails=0 maxub=0.7499721280182828
+  [1750/7840]      4.2s  accepted=16989 disc_region=3448 disc_F=0 fails=0 maxub=0.7499869169318142
+  [2000/7840]      5.2s  accepted=21703 disc_region=3834 disc_F=0 fails=0 maxub=0.7499869169318142
+  [2250/7840]      7.7s  accepted=33344 disc_region=4594 disc_F=0 fails=0 maxub=0.7499869169318142
+  [2500/7840]     11.1s  accepted=46049 disc_region=5344 disc_F=0 fails=0 maxub=0.7499990406209058
+  [2750/7840]     12.5s  accepted=54543 disc_region=5882 disc_F=0 fails=0 maxub=0.7499990406209058
+  [3000/7840]     17.4s  accepted=74116 disc_region=6722 disc_F=0 fails=0 maxub=0.7499990406209058
+  [3250/7840]     21.8s  accepted=93690 disc_region=7628 disc_F=0 fails=0 maxub=0.7499990406209058
+  [3500/7840]     23.7s  accepted=104544 disc_region=7951 disc_F=0 fails=0 maxub=0.7499990406209058
+  [3750/7840]     28.5s  accepted=130026 disc_region=9273 disc_F=0 fails=0 maxub=0.7499990406209058
+  [4000/7840]     29.8s  accepted=134684 disc_region=9853 disc_F=0 fails=0 maxub=0.7499990406209058
+  [4250/7840]     32.3s  accepted=147431 disc_region=10362 disc_F=0 fails=0 maxub=0.7499990406209058
+  [4500/7840]     33.8s  accepted=153899 disc_region=11004 disc_F=0 fails=0 maxub=0.7499990406209058
+  [4750/7840]     34.9s  accepted=159292 disc_region=11239 disc_F=0 fails=0 maxub=0.7499990406209058
+  [5000/7840]     36.6s  accepted=166626 disc_region=11768 disc_F=0 fails=0 maxub=0.7499990406209058
+  [5250/7840]     36.9s  accepted=168511 disc_region=11985 disc_F=0 fails=0 maxub=0.7499990406209058
+  [5500/7840]     38.4s  accepted=175081 disc_region=12461 disc_F=0 fails=0 maxub=0.7499990406209058
+  [5750/7840]     39.0s  accepted=177408 disc_region=12898 disc_F=0 fails=0 maxub=0.7499990406209058
+  [6000/7840]     39.6s  accepted=180420 disc_region=13125 disc_F=0 fails=0 maxub=0.7499990406209058
+  [6250/7840]     40.5s  accepted=184317 disc_region=13559 disc_F=0 fails=0 maxub=0.7499990406209058
+  [6500/7840]     40.5s  accepted=184414 disc_region=13803 disc_F=0 fails=0 maxub=0.7499990406209058
+  [6750/7840]     41.1s  accepted=187312 disc_region=14190 disc_F=0 fails=0 maxub=0.7499990406209058
+  [7000/7840]     41.3s  accepted=188014 disc_region=14601 disc_F=0 fails=0 maxub=0.7499990406209058
+  [7250/7840]     41.5s  accepted=189003 disc_region=14851 disc_F=0 fails=0 maxub=0.7499990406209058
+  [7500/7840]     41.7s  accepted=189897 disc_region=15217 disc_F=0 fails=0 maxub=0.7499990406209058
+  [7750/7840]     41.7s  accepted=190003 disc_region=15462 disc_F=0 fails=0 maxub=0.7499990406209058
+  [7840/7840]     41.8s  accepted=190384 disc_region=15630 disc_F=0 fails=0 maxub=0.7499990406209058
+=== DONE direct: wall 41.8s, cpu 663.6s
+    leaves accepted (trS bound < 3/4): 190384  (x-pieces 190384)
+    leaves discarded: region 15630, F != 0 0
+    bisections: 198174, max depth 13, smallest accepted box (rel. to initial cell) 0.0625
+    unproved leaves: 0
+    max certified upper bound of trS over accepted leaves: 0.7499990406209058
+      attained on box {'box': [(0.921875, 0.9375), (0.2578125, 0.265625), (0.2265625, 0.23046875)], 'xpiece': [0.3152418260688137, 0.3253939731475839], 'xlin': [0.32037907546075234, 0.01828123045395225, -0.16925313040759726, -0.5905876112163], 'eps': [-0.004131338123644801, 0.004124795725854946], 'Y': [-1.0907736607136302, 3.4970871347417]}
+    histogram of leaf upper bounds: {'0.08': 1, '0.11': 1, '0.13': 1, '0.17': 1, '0.20': 4, '0.22': 1, '0.24': 1, '0.26': 1, '0.28': 12, '0.29': 21, '0.30': 33, '0.31': 34, '0.32': 38, '0.33': 37, '0.34': 36, '0.35': 47, '0.36': 64, '0.37': 76, '0.38': 84, '0.39': 109, '0.40': 142, '0.41': 190, '0.42': 281, '0.43': 350, '0.44': 431, '0.45': 497, '0.46': 579, '0.47': 672, '0.48': 783, '0.49': 970, '0.50': 1328, '0.51': 1749, '0.52': 2194, '0.53': 2562, '0.54': 3005, '0.55': 3480, '0.56': 4087, '0.57': 4767, '0.58': 5433, '0.59': 6036, '0.60': 6630, '0.61': 7355, '0.62': 8255, '0.63': 9542, '0.64': 11126, '0.65': 13072, '0.66': 14491, '0.67': 14293, '0.68': 12999, '0.69': 11380, '0.70': 10155, '0.71': 8959, '0.72': 8036, '0.73': 7337, '0.74': 6616}
+    accepted leaves saved to direct_leaves.npy

@@ -1,0 +1,46 @@
+A. symbolic checks (sympy)
+  OK   R_ij closed forms
+  OK   signed areas closed forms; OK   sum A_i = 0 and sum A_i q_i = 0 identically
+  OK   direct E_e = R_e - R12
+  OK   chart E_e = (R_e - R12)/b;  OK   R34 = b^2 rho^2;  OK   chart R12,R14,R23 forms;  OK   sympy polynomial division by b (zero remainder)
+   chart E_e at b=0: {13: -alpha + 2*xi + 2, 14: -alpha + gamma + 2*xi, 23: alpha + 2*xi + 1, 24: alpha + 2*gamma + 2*xi}
+  OK   chart A1 = b A1h, A2 = b A2h
+  OK   factorisations of w12, w13, w24, w34, w14
+  OK   r_e^3 - r_f^3 = (R_e - R_f)(r_e^2 + r_e r_f + r_f^2)/(r_e + r_f)
+B. direct formulas, 50-digit mpmath, random points (a,b,c,x) in [0.5,1.75]x[0.125,1]x[0.05,1.75]x[-0.95,0.95]
+  OK   sum A_i = 0: max err = 5.3455e-51 (tol 1.0e-40)
+  OK   sum A_i q_i = 0: max err = 5.3455e-51 (tol 1.0e-40)
+  OK   A1, A3 > 0 > A2, A4 at all points
+  OK   beta R = a  (rigidity matrix): max err = 5.4792e-50 (tol 1.0e-40)
+  OK   tau R = 0   (self-stress): max err = 2.1382e-50 (tol 1.0e-40)
+  OK   closed-form R_ij vs coordinates: max err = 7.8367e-51 (tol 1.0e-40)
+  OK   closed-form A_i vs triangle areas: max err = 4.0091e-51 (tol 1.0e-40)
+  OK   scaled (t=1) D_e vs literal: max err = 6.7751e-49 (tol 1.0e-40)
+  OK   scaled (t=1) tau_e vs literal: max err = 1.2099e-50 (tol 1.0e-40)
+  OK   scaled (t=1) beta_e vs literal: max err = 2.6514e-50 (tol 1.0e-40)
+  OK   factored F (t=1) vs literal F: max err = 3.3155e-49 (tol 1.0e-40)
+  OK   F_direct vs literal F: max err = 3.8652e-49 (tol 1.0e-40)
+  OK   trS(y) scaled vs literal: max err = 1.1017e-48 (tol 1.0e-40)
+C. chart formulas vs literal direct ones, 50-digit mpmath, random (b,al,ga,xi), b>0
+  [b in [1e-6, 1/8], 50 digits]
+  OK   D_e chart vs literal: max err = 2.1971e-46 (tol 1.0e-35)
+  OK   tau_e/b chart vs literal: max err = 7.8178e-50 (tol 1.0e-35)
+  OK   beta_e chart vs literal: max err = 5.0386e-49 (tol 1.0e-35)
+  OK   Ftil vs F/b^2: max err = 4.3767e-48 (tol 1.0e-35)
+  OK   scaled region quantities vs literal: max err = 2.8411e-48 (tol 1.0e-35)
+  OK   trS(Y/b) chart vs literal: max err = 1.1129e-48 (tol 1.0e-35)
+  [b in [1e-30, 1e-20], 200 digits]
+  OK   D_e chart vs literal: max err = 5.2223e-156 (tol 0.00000000000000000000000000000000001)
+  OK   tau_e/b chart vs literal: max err = 3.8086e-180 (tol 0.00000000000000000000000000000000001)
+  OK   beta_e chart vs literal: max err = 5.5806e-179 (tol 0.00000000000000000000000000000000001)
+  OK   Ftil vs F/b^2: max err = 2.1703e-178 (tol 0.00000000000000000000000000000000001)
+  OK   scaled region quantities vs literal: max err = 2.1763e-178 (tol 0.00000000000000000000000000000000001)
+  OK   trS(Y/b) chart vs literal: max err = 1.5964e-178 (tol 0.00000000000000000000000000000000001)
+  b = 0 exactly (limit formulas) vs b = 1e-40, 50 digits:
+  OK   continuity at b=0 of D_e, T_e, beta_e, Ftil: max err = 9.5308e-40 (tol 1.0e-35)
+D. points of Z (F = 0 solved at 50 digits, region inequalities checked)
+  68 points of Z found in direct box; beta R = a, tau R = 0 residual 2.14e-50
+  min D_e over them = 0.000191868 (expected >= 0)
+  max_Z min_y trS = 0.57126871 at (a,b,c,x) = ['1.22436', '0.45751', '0.392952', '0.208941']
+
+FAILED CHECKS: none

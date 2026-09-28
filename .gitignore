@@ -1,0 +1,6 @@
+.lake/
+__pycache__/
+*.pyc
+*.npy
+/paper/fig_lmax.pdf
+/paper/fig_lmax.png

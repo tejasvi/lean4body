@@ -1,0 +1,18 @@
+chart: grid 60^3 = 216000; with nonempty linear x-range: 46295
+  roots in region: 46295; grid points with 1 root: 46295, 2 roots: 0, >2: 0
+  b: [0.0000, 0.1250]
+  al: [-1.6949, 0.5424]
+  ga: [0.4585, 2.6950]
+  xi: [-2.1950, -0.3987]
+  min_y trS on Z samples: max 0.58451, median 0.4681, min 0.2506
+  argmax: b=0.12500 al=-0.57627 ga=1.06844 xi=-0.82684
+  min D_e on Z samples: 1.572e-30; max D_e 3.966e+00
+  |F_x|/|grad F| on Z: min 6.742e-01, 5% quantile 8.108e-01
+  |dx/db|,|dx/dal|,|dx/dga| 95% quantiles: 0.253, 0.508, 0.682; max: 0.368, 0.612, 0.973
+  |d trS/db| (fixed Y): median 0.142, 95% 1.119, max 2.292
+  |d trS/dal| (fixed Y): median 0.004, 95% 0.027, max 0.065
+  |d trS/dga| (fixed Y): median 0.403, 95% 1.005, max 2.055
+  |d trS/dxi| (fixed Y): median 0.123, 95% 0.236, max 0.327
+  |total d trS/db| along Z: median 0.144, 95% 1.145, max 2.292
+  |total d trS/dal| along Z: median 0.028, 95% 0.091, max 0.134
+  |total d trS/dga| along Z: median 0.353, 95% 1.072, max 2.055

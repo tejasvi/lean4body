@@ -1,0 +1,438 @@
+import C4Cert.Dir000
+import C4Cert.Dir001
+import C4Cert.Dir002
+import C4Cert.Dir003
+import C4Cert.Dir004
+import C4Cert.Dir005
+import C4Cert.Dir006
+import C4Cert.Dir007
+import C4Cert.Dir008
+import C4Cert.Dir009
+import C4Cert.Dir010
+import C4Cert.Dir011
+import C4Cert.Dir012
+import C4Cert.Dir013
+import C4Cert.Dir014
+import C4Cert.Dir015
+import C4Cert.Dir016
+import C4Cert.Dir017
+import C4Cert.Dir018
+import C4Cert.Dir019
+import C4Cert.Dir020
+import C4Cert.Dir021
+import C4Cert.Dir022
+import C4Cert.Dir023
+import C4Cert.Dir024
+import C4Cert.Dir025
+import C4Cert.Dir026
+import C4Cert.Dir027
+import C4Cert.Dir028
+import C4Cert.Dir029
+import C4Cert.Dir030
+import C4Cert.Dir031
+import C4Cert.Dir032
+import C4Cert.Dir033
+import C4Cert.Dir034
+import C4Cert.Dir035
+import C4Cert.Dir036
+import C4Cert.Dir037
+import C4Cert.Dir038
+import C4Cert.Dir039
+import C4Cert.Dir040
+import C4Cert.Dir041
+import C4Cert.Dir042
+import C4Cert.Dir043
+import C4Cert.Dir044
+import C4Cert.Dir045
+import C4Cert.Dir046
+import C4Cert.Dir047
+import C4Cert.Dir048
+import C4Cert.Dir049
+import C4Cert.Dir050
+import C4Cert.Dir051
+import C4Cert.Dir052
+import C4Cert.Dir053
+import C4Cert.Dir054
+import C4Cert.Dir055
+import C4Cert.Dir056
+import C4Cert.Dir057
+import C4Cert.Dir058
+import C4Cert.Dir059
+import C4Cert.Dir060
+import C4Cert.Dir061
+import C4Cert.Dir062
+import C4Cert.Dir063
+import C4Cert.Dir064
+import C4Cert.Dir065
+import C4Cert.Dir066
+import C4Cert.Dir067
+import C4Cert.Dir068
+import C4Cert.Dir069
+import C4Cert.Dir070
+import C4Cert.Dir071
+import C4Cert.Dir072
+import C4Cert.Dir073
+import C4Cert.Dir074
+import C4Cert.Dir075
+import C4Cert.Dir076
+import C4Cert.Dir077
+import C4Cert.Dir078
+import C4Cert.Dir079
+import C4Cert.Dir080
+import C4Cert.Dir081
+import C4Cert.Dir082
+import C4Cert.Dir083
+import C4Cert.Dir084
+import C4Cert.Dir085
+import C4Cert.Dir086
+import C4Cert.Dir087
+import C4Cert.Dir088
+import C4Cert.Dir089
+import C4Cert.Dir090
+import C4Cert.Dir091
+import C4Cert.Dir092
+import C4Cert.Dir093
+import C4Cert.Dir094
+import C4Cert.Dir095
+import C4Cert.Dir096
+import C4Cert.Dir097
+import C4Cert.Dir098
+import C4Cert.Dir099
+import C4Cert.Dir100
+import C4Cert.Dir101
+import C4Cert.Dir102
+import C4Cert.Dir103
+import C4Cert.Dir104
+import C4Cert.Dir105
+import C4Cert.Dir106
+import C4Cert.Dir107
+import C4Cert.Dir108
+import C4Cert.Dir109
+import C4Cert.Dir110
+import C4Cert.Dir111
+import C4Cert.Dir112
+import C4Cert.Dir113
+import C4Cert.Dir114
+import C4Cert.Dir115
+import C4Cert.Dir116
+import C4Cert.Dir117
+import C4Cert.Dir118
+import C4Cert.Dir119
+import C4Cert.Dir120
+import C4Cert.Dir121
+import C4Cert.Dir122
+import C4Cert.Dir123
+import C4Cert.Dir124
+import C4Cert.Dir125
+import C4Cert.Dir126
+import C4Cert.Dir127
+import C4Cert.Dir128
+import C4Cert.Dir129
+import C4Cert.Dir130
+import C4Cert.Dir131
+import C4Cert.Dir132
+import C4Cert.Dir133
+import C4Cert.Dir134
+import C4Cert.Dir135
+import C4Cert.Dir136
+import C4Cert.Dir137
+import C4Cert.Dir138
+import C4Cert.Dir139
+import C4Cert.Dir140
+import C4Cert.Dir141
+import C4Cert.Dir142
+import C4Cert.Dir143
+import C4Cert.Dir144
+import C4Cert.Dir145
+import C4Cert.Dir146
+import C4Cert.Dir147
+import C4Cert.Dir148
+import C4Cert.Dir149
+import C4Cert.Dir150
+import C4Cert.Dir151
+import C4Cert.Dir152
+import C4Cert.Dir153
+import C4Cert.Dir154
+import C4Cert.Dir155
+import C4Cert.Dir156
+import C4Cert.Dir157
+import C4Cert.Dir158
+import C4Cert.Ch000
+import C4Cert.Ch001
+import C4Cert.Ch002
+import C4Cert.Ch003
+import C4Cert.Ch004
+import C4Cert.Ch005
+import C4Cert.Ch006
+import C4Cert.Ch007
+import C4Cert.Ch008
+import C4Cert.Ch009
+import C4Cert.Ch010
+import C4Cert.Ch011
+import C4Cert.Ch012
+import C4Cert.Ch013
+import C4Cert.Ch014
+import C4Cert.Ch015
+import C4Cert.Ch016
+import C4Cert.Ch017
+import C4Cert.Ch018
+import C4Cert.Ch019
+import C4Cert.Ch020
+import C4Cert.Ch021
+import C4Cert.Ch022
+import C4Cert.Ch023
+import C4Cert.Ch024
+import C4Cert.Ch025
+import C4Cert.Ch026
+import C4Cert.Ch027
+import C4Cert.Ch028
+import C4Cert.Ch029
+import C4Cert.Ch030
+import C4Cert.Ch031
+import C4Cert.Ch032
+import C4Cert.Ch033
+import C4Cert.Ch034
+import C4Cert.Ch035
+import C4Cert.Ch036
+import C4Cert.Ch037
+import C4Cert.Ch038
+import C4Cert.Ch039
+import C4Cert.Ch040
+import C4Cert.Ch041
+import C4Cert.Ch042
+import C4Cert.Ch043
+import C4Cert.Ch044
+import C4Cert.Ch045
+import C4Cert.Ch046
+import C4Cert.Ch047
+import C4Cert.Ch048
+import C4Cert.Ch049
+import C4Cert.Ch050
+import C4Cert.Ch051
+
+/-!
+# The two covers
+
+Every cell of the two grids of `C4Check/Grid.lean` has a hint on which `checkBoxH`
+succeeds.  Each module `C4Cert.DirNNN`, `C4Cert.ChNNN` checks a range of cells by
+`decide +kernel` (written by `scripts/mkcert.py` from the hints found by `gen`).
+-/
+
+namespace C4
+
+theorem dirCover : Cover dirCell 0 62720 :=
+  Cert.Dir000.cover.trans <|
+  Cert.Dir001.cover.trans <|
+  Cert.Dir002.cover.trans <|
+  Cert.Dir003.cover.trans <|
+  Cert.Dir004.cover.trans <|
+  Cert.Dir005.cover.trans <|
+  Cert.Dir006.cover.trans <|
+  Cert.Dir007.cover.trans <|
+  Cert.Dir008.cover.trans <|
+  Cert.Dir009.cover.trans <|
+  Cert.Dir010.cover.trans <|
+  Cert.Dir011.cover.trans <|
+  Cert.Dir012.cover.trans <|
+  Cert.Dir013.cover.trans <|
+  Cert.Dir014.cover.trans <|
+  Cert.Dir015.cover.trans <|
+  Cert.Dir016.cover.trans <|
+  Cert.Dir017.cover.trans <|
+  Cert.Dir018.cover.trans <|
+  Cert.Dir019.cover.trans <|
+  Cert.Dir020.cover.trans <|
+  Cert.Dir021.cover.trans <|
+  Cert.Dir022.cover.trans <|
+  Cert.Dir023.cover.trans <|
+  Cert.Dir024.cover.trans <|
+  Cert.Dir025.cover.trans <|
+  Cert.Dir026.cover.trans <|
+  Cert.Dir027.cover.trans <|
+  Cert.Dir028.cover.trans <|
+  Cert.Dir029.cover.trans <|
+  Cert.Dir030.cover.trans <|
+  Cert.Dir031.cover.trans <|
+  Cert.Dir032.cover.trans <|
+  Cert.Dir033.cover.trans <|
+  Cert.Dir034.cover.trans <|
+  Cert.Dir035.cover.trans <|
+  Cert.Dir036.cover.trans <|
+  Cert.Dir037.cover.trans <|
+  Cert.Dir038.cover.trans <|
+  Cert.Dir039.cover.trans <|
+  Cert.Dir040.cover.trans <|
+  Cert.Dir041.cover.trans <|
+  Cert.Dir042.cover.trans <|
+  Cert.Dir043.cover.trans <|
+  Cert.Dir044.cover.trans <|
+  Cert.Dir045.cover.trans <|
+  Cert.Dir046.cover.trans <|
+  Cert.Dir047.cover.trans <|
+  Cert.Dir048.cover.trans <|
+  Cert.Dir049.cover.trans <|
+  Cert.Dir050.cover.trans <|
+  Cert.Dir051.cover.trans <|
+  Cert.Dir052.cover.trans <|
+  Cert.Dir053.cover.trans <|
+  Cert.Dir054.cover.trans <|
+  Cert.Dir055.cover.trans <|
+  Cert.Dir056.cover.trans <|
+  Cert.Dir057.cover.trans <|
+  Cert.Dir058.cover.trans <|
+  Cert.Dir059.cover.trans <|
+  Cert.Dir060.cover.trans <|
+  Cert.Dir061.cover.trans <|
+  Cert.Dir062.cover.trans <|
+  Cert.Dir063.cover.trans <|
+  Cert.Dir064.cover.trans <|
+  Cert.Dir065.cover.trans <|
+  Cert.Dir066.cover.trans <|
+  Cert.Dir067.cover.trans <|
+  Cert.Dir068.cover.trans <|
+  Cert.Dir069.cover.trans <|
+  Cert.Dir070.cover.trans <|
+  Cert.Dir071.cover.trans <|
+  Cert.Dir072.cover.trans <|
+  Cert.Dir073.cover.trans <|
+  Cert.Dir074.cover.trans <|
+  Cert.Dir075.cover.trans <|
+  Cert.Dir076.cover.trans <|
+  Cert.Dir077.cover.trans <|
+  Cert.Dir078.cover.trans <|
+  Cert.Dir079.cover.trans <|
+  Cert.Dir080.cover.trans <|
+  Cert.Dir081.cover.trans <|
+  Cert.Dir082.cover.trans <|
+  Cert.Dir083.cover.trans <|
+  Cert.Dir084.cover.trans <|
+  Cert.Dir085.cover.trans <|
+  Cert.Dir086.cover.trans <|
+  Cert.Dir087.cover.trans <|
+  Cert.Dir088.cover.trans <|
+  Cert.Dir089.cover.trans <|
+  Cert.Dir090.cover.trans <|
+  Cert.Dir091.cover.trans <|
+  Cert.Dir092.cover.trans <|
+  Cert.Dir093.cover.trans <|
+  Cert.Dir094.cover.trans <|
+  Cert.Dir095.cover.trans <|
+  Cert.Dir096.cover.trans <|
+  Cert.Dir097.cover.trans <|
+  Cert.Dir098.cover.trans <|
+  Cert.Dir099.cover.trans <|
+  Cert.Dir100.cover.trans <|
+  Cert.Dir101.cover.trans <|
+  Cert.Dir102.cover.trans <|
+  Cert.Dir103.cover.trans <|
+  Cert.Dir104.cover.trans <|
+  Cert.Dir105.cover.trans <|
+  Cert.Dir106.cover.trans <|
+  Cert.Dir107.cover.trans <|
+  Cert.Dir108.cover.trans <|
+  Cert.Dir109.cover.trans <|
+  Cert.Dir110.cover.trans <|
+  Cert.Dir111.cover.trans <|
+  Cert.Dir112.cover.trans <|
+  Cert.Dir113.cover.trans <|
+  Cert.Dir114.cover.trans <|
+  Cert.Dir115.cover.trans <|
+  Cert.Dir116.cover.trans <|
+  Cert.Dir117.cover.trans <|
+  Cert.Dir118.cover.trans <|
+  Cert.Dir119.cover.trans <|
+  Cert.Dir120.cover.trans <|
+  Cert.Dir121.cover.trans <|
+  Cert.Dir122.cover.trans <|
+  Cert.Dir123.cover.trans <|
+  Cert.Dir124.cover.trans <|
+  Cert.Dir125.cover.trans <|
+  Cert.Dir126.cover.trans <|
+  Cert.Dir127.cover.trans <|
+  Cert.Dir128.cover.trans <|
+  Cert.Dir129.cover.trans <|
+  Cert.Dir130.cover.trans <|
+  Cert.Dir131.cover.trans <|
+  Cert.Dir132.cover.trans <|
+  Cert.Dir133.cover.trans <|
+  Cert.Dir134.cover.trans <|
+  Cert.Dir135.cover.trans <|
+  Cert.Dir136.cover.trans <|
+  Cert.Dir137.cover.trans <|
+  Cert.Dir138.cover.trans <|
+  Cert.Dir139.cover.trans <|
+  Cert.Dir140.cover.trans <|
+  Cert.Dir141.cover.trans <|
+  Cert.Dir142.cover.trans <|
+  Cert.Dir143.cover.trans <|
+  Cert.Dir144.cover.trans <|
+  Cert.Dir145.cover.trans <|
+  Cert.Dir146.cover.trans <|
+  Cert.Dir147.cover.trans <|
+  Cert.Dir148.cover.trans <|
+  Cert.Dir149.cover.trans <|
+  Cert.Dir150.cover.trans <|
+  Cert.Dir151.cover.trans <|
+  Cert.Dir152.cover.trans <|
+  Cert.Dir153.cover.trans <|
+  Cert.Dir154.cover.trans <|
+  Cert.Dir155.cover.trans <|
+  Cert.Dir156.cover.trans <|
+  Cert.Dir157.cover.trans <|
+  Cert.Dir158.cover
+
+theorem chCover : Cover chCell 0 73728 :=
+  Cert.Ch000.cover.trans <|
+  Cert.Ch001.cover.trans <|
+  Cert.Ch002.cover.trans <|
+  Cert.Ch003.cover.trans <|
+  Cert.Ch004.cover.trans <|
+  Cert.Ch005.cover.trans <|
+  Cert.Ch006.cover.trans <|
+  Cert.Ch007.cover.trans <|
+  Cert.Ch008.cover.trans <|
+  Cert.Ch009.cover.trans <|
+  Cert.Ch010.cover.trans <|
+  Cert.Ch011.cover.trans <|
+  Cert.Ch012.cover.trans <|
+  Cert.Ch013.cover.trans <|
+  Cert.Ch014.cover.trans <|
+  Cert.Ch015.cover.trans <|
+  Cert.Ch016.cover.trans <|
+  Cert.Ch017.cover.trans <|
+  Cert.Ch018.cover.trans <|
+  Cert.Ch019.cover.trans <|
+  Cert.Ch020.cover.trans <|
+  Cert.Ch021.cover.trans <|
+  Cert.Ch022.cover.trans <|
+  Cert.Ch023.cover.trans <|
+  Cert.Ch024.cover.trans <|
+  Cert.Ch025.cover.trans <|
+  Cert.Ch026.cover.trans <|
+  Cert.Ch027.cover.trans <|
+  Cert.Ch028.cover.trans <|
+  Cert.Ch029.cover.trans <|
+  Cert.Ch030.cover.trans <|
+  Cert.Ch031.cover.trans <|
+  Cert.Ch032.cover.trans <|
+  Cert.Ch033.cover.trans <|
+  Cert.Ch034.cover.trans <|
+  Cert.Ch035.cover.trans <|
+  Cert.Ch036.cover.trans <|
+  Cert.Ch037.cover.trans <|
+  Cert.Ch038.cover.trans <|
+  Cert.Ch039.cover.trans <|
+  Cert.Ch040.cover.trans <|
+  Cert.Ch041.cover.trans <|
+  Cert.Ch042.cover.trans <|
+  Cert.Ch043.cover.trans <|
+  Cert.Ch044.cover.trans <|
+  Cert.Ch045.cover.trans <|
+  Cert.Ch046.cover.trans <|
+  Cert.Ch047.cover.trans <|
+  Cert.Ch048.cover.trans <|
+  Cert.Ch049.cover.trans <|
+  Cert.Ch050.cover.trans <|
+  Cert.Ch051.cover
+
+end C4

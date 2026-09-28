@@ -1,0 +1,29 @@
+=== verify.py chart  thresh=19/32  prec=96 bits  workers=16  initial boxes=4608  domain=[(0.0, 0.125, 8), (-2.0, 1.0, 24), (0.0, 3.0, 24)]  start 2026-09-27 23:01:14
+  [250/4608]      0.3s  accepted=19 disc_region=256 disc_F=0 fails=0 maxub=0.5532429546561994
+  [500/4608]      3.8s  accepted=7478 disc_region=551 disc_F=0 fails=0 maxub=0.593748805150654
+  [750/4608]      3.9s  accepted=7509 disc_region=816 disc_F=0 fails=0 maxub=0.593748805150654
+  [1000/4608]      6.9s  accepted=15066 disc_region=1295 disc_F=0 fails=0 maxub=0.5937499355038398
+  [1250/4608]      8.1s  accepted=17870 disc_region=1620 disc_F=0 fails=0 maxub=0.5937499355038398
+  [1500/4608]      9.7s  accepted=22298 disc_region=2057 disc_F=0 fails=0 maxub=0.5937499972464421
+  [1750/4608]     12.6s  accepted=28895 disc_region=2412 disc_F=0 fails=0 maxub=0.5937499972464421
+  [2000/4608]     13.1s  accepted=30488 disc_region=2776 disc_F=0 fails=0 maxub=0.5937499972464421
+  [2250/4608]     17.3s  accepted=40523 disc_region=3158 disc_F=0 fails=0 maxub=0.5937499972464421
+  [2500/4608]     17.4s  accepted=41069 disc_region=3421 disc_F=0 fails=0 maxub=0.5937499972464421
+  [2750/4608]     21.5s  accepted=50669 disc_region=3795 disc_F=0 fails=0 maxub=0.5937499972464421
+  [3000/4608]     22.3s  accepted=52576 disc_region=4077 disc_F=0 fails=0 maxub=0.5937499972464421
+  [3250/4608]     24.9s  accepted=59479 disc_region=4536 disc_F=0 fails=0 maxub=0.5937499972464421
+  [3500/4608]     27.5s  accepted=65510 disc_region=4760 disc_F=0 fails=0 maxub=0.5937499972464421
+  [3750/4608]     28.7s  accepted=68511 disc_region=5182 disc_F=0 fails=0 maxub=0.5937499972464421
+  [4000/4608]     33.1s  accepted=78775 disc_region=5434 disc_F=0 fails=0 maxub=0.5937499972464421
+  [4250/4608]     33.5s  accepted=79754 disc_region=5717 disc_F=0 fails=0 maxub=0.5937499972464421
+  [4500/4608]     38.5s  accepted=92199 disc_region=6113 disc_F=0 fails=0 maxub=0.5937499972464421
+  [4608/4608]     41.3s  accepted=95972 disc_region=6325 disc_F=0 fails=0 maxub=0.5937499972464421
+=== DONE chart: wall 41.3s, cpu 628.7s
+    leaves accepted (trS bound < 19/32): 95972  (x-pieces 95972)
+    leaves discarded: region 6325, F != 0 0
+    bisections: 97689, max depth 10, smallest accepted box (rel. to initial cell) 0.25
+    unproved leaves: 0
+    max certified upper bound of trS over accepted leaves: 0.5937499972464421
+      attained on box {'box': [(0.01953125, 0.0234375), (0.1875, 0.21875), (1.0234375, 1.03125)], 'xpiece': [-0.7574355934993946, -0.7500892298412509], 'xlin': [-0.7537594081647367, 0.10904224024526481, 0.0268348007789671, -0.21851414394293545], 'eps': [-0.002025090868588375, 0.0020250380718462857], 'Y': [-0.7307889002385146, 1.0338671552204963]}
+    histogram of leaf upper bounds: {'0.36': 4, '0.37': 35, '0.38': 59, '0.39': 76, '0.40': 148, '0.41': 202, '0.42': 227, '0.43': 271, '0.44': 324, '0.45': 443, '0.46': 582, '0.47': 651, '0.48': 742, '0.49': 773, '0.50': 842, '0.51': 904, '0.52': 1028, '0.53': 1247, '0.54': 1571, '0.55': 2251, '0.56': 3951, '0.57': 7386, '0.58': 40197, '0.59': 32058}
+    accepted leaves saved to chart_leaves_19_32.npy

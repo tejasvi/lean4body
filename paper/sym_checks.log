@@ -1,0 +1,8 @@
+1. F*prod s + P = 0
+2. s_e - lambda - w_e: [0, 0, 0, 0, 0, 0]  w12 w34 - w13 w24: 0  w12 w34 - w14 w23 + P/delta: 0
+3. factorizations: [0, 0, 0, 0, 0, 0]
+   areas: [b*sqrt(-(x - 1)*(x + 1))*(a + c)/2, -c*sqrt(-(x - 1)*(x + 1))*(b + 1)/2, sqrt(-(x - 1)*(x + 1))*(a + c)/2, -a*sqrt(-(x - 1)*(x + 1))*(b + 1)/2]  sum: 0  sum A q: Matrix([[0, 0]])
+4. Heron derivative: 0
+5. chart h_i: [0, 0, 0, 0, 0, 0]
+   R_e - 1 - b d_e: [0, 0, 0, 0, 0]  R34 - b^2 rho^2: 0
+   Ph at b = 0 + (9/4) rho^-3 (3al + 3ga - 3al ga + 2xi(1+ga)): 0

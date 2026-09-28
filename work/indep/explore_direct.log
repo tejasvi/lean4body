@@ -1,0 +1,18 @@
+direct: grid 60^3 = 216000; with nonempty linear x-range: 45652
+  roots in region: 45652; grid points with 1 root: 45652, 2 roots: 0, >2: 0
+  a: [0.6059, 1.7076]
+  b: [0.1250, 0.9852]
+  c: [0.0603, 1.6907]
+  x: [0.0000, 0.4338]
+  min_y trS on Z samples: max 0.59170, median 0.4515, min 0.0387
+  argmax: a=0.64831 b=0.31780 c=0.50495 x=0.07160
+  min D_e on Z samples: 3.699e-07; max D_e 3.903e+00
+  |F_x|/|grad F| on Z: min 5.102e-01, 5% quantile 8.057e-01
+  |dx/da|,|dx/db|,|dx/dc| 95% quantiles: 0.478, 0.521, 0.525; max: 0.896, 1.107, 1.548
+  |d trS/da| (fixed Y): median 0.216, 95% 0.388, max 2.688
+  |d trS/db| (fixed Y): median 0.431, 95% 1.586, max 8.110
+  |d trS/dc| (fixed Y): median 0.441, 95% 1.809, max 14.572
+  |d trS/dx| (fixed Y): median 1.114, 95% 1.646, max 2.630
+  |total d trS/da| along Z: median 0.204, 95% 0.658, max 2.725
+  |total d trS/db| along Z: median 0.331, 95% 1.662, max 7.462
+  |total d trS/dc| along Z: median 0.348, 95% 1.895, max 15.976

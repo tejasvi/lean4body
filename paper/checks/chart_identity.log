@@ -1,0 +1,21 @@
+square-root symbols: {'s': -(2*b*xi - 1)*(2*b*xi + 3)/4, 'rho': -2*b*gamma*xi + gamma**2 - gamma + 1, 'b*rho': -b**2*(2*b*gamma*xi - gamma**2 + gamma - 1), 'r_1': alpha**2*b**2 - 2*alpha*b**2*xi + alpha*b - 2*b*xi + 1, 'r_2': (b + 1)**2, 'r_3': b**2*gamma**2 + 2*b**2*gamma*xi + b*gamma + 1, 'r_4': alpha**2*b**2 + 2*alpha*b**3*xi + alpha*b**2 + 2*alpha*b + 2*b**2*xi + b**2 + b + 1, 'r_5': (alpha*b + b*gamma + 1)**2}
+T12 identical: True
+Bx12 identical: True
+By12 identical: True
+T13 identical: True
+Bx13 identical: True
+By13 identical: True
+T14 identical: True
+Bx14 identical: True
+By14 identical: True
+T23 identical: True
+Bx23 identical: True
+By23 identical: True
+T24 identical: True
+Bx24 identical: True
+By24 identical: True
+T34 identical: True
+Bx34 identical: True
+By34 identical: True
+g identical: True
+ALL IDENTICAL

@@ -1,0 +1,8 @@
+nanoda-out/B/Dir000.json: the statement of C4.Cert.Dir000.c17 has 7 literals, 5 of them used by no other declaration
+the largest has 209 digits; changed its last digits from ...484658 to ...484659
+the unchanged export, in part B: Checked 722 declarations with no errors
+the changed export: nanoda exits with status 101
+  thread 'main' panicked at src/tc.rs:955:71:
+  assertion failed: self.def_eq(u, v)
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+REJECTED

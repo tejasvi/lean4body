@@ -1,0 +1,9 @@
+direct cell (2, 3, 8) = [(0.625, 0.6875), (0.3125, 0.375), (0.5, 0.5625)], threshold 9/16, node budget 4000: 4029 nodes, accepted 0, discarded 242, UNPROVED 1773  (6.0s)
+  min_y trS at the root above the centre of the unproved leaves: max 0.59172, min 0.57643; 1445/1445 exceed the threshold
+  e.g. leaf [(0.6405868530273438, 0.640594482421875), (0.3125, 0.312530517578125), (0.5117034912109375, 0.51171875)], dependent coord 0.064440, min_y trS 0.59172
+chart cell (7, 11, 8) = [(0.109375, 0.125), (-0.625, -0.5), (1.0, 1.125)], threshold 9/16, node budget 4000: 4019 nodes, accepted 0, discarded 687, UNPROVED 1323  (8.6s)
+  min_y trS at the root above the centre of the unproved leaves: max 0.58394, min 0.58327; 778/778 exceed the threshold
+  e.g. leaf [(0.109375, 0.125), (-0.625, -0.5), (1.0625, 1.125)], dependent coord -0.841963, min_y trS 0.58394
+direct cell (2, 3, 8) = [(0.625, 0.6875), (0.3125, 0.375), (0.5, 0.5625)], threshold 37/64, node budget 4000: 4029 nodes, accepted 0, discarded 242, UNPROVED 1773  (5.9s)
+  min_y trS at the root above the centre of the unproved leaves: max 0.59172, min 0.57643; 1444/1445 exceed the threshold
+  e.g. leaf [(0.6405868530273438, 0.640594482421875), (0.3125, 0.312530517578125), (0.5117034912109375, 0.51171875)], dependent coord 0.064440, min_y trS 0.59172

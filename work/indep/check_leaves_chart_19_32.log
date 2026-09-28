@@ -1,0 +1,5 @@
+check_leaves chart: 95972 leaves, 7000 parameter samples (4000 uniform, 3000 in the top-bound leaves), 118.8s
+  Z points found: 3792 (884 from uniform samples)
+  ok: 3792   NOT covered / bad: 0
+  largest trS(y_leaf) at a sampled Z point: 0.584733 (leaf bound 0.593651) at p=['0.122146', '-0.587611', '1.078179'], dep=-0.834755
+  smallest margin (certified bound - trS): 6.806e-03 (trS 0.582748, bound 0.589554)

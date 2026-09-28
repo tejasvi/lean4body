@@ -1,0 +1,12 @@
+6272/62720  acc 1568 disc 6480 fail 0  max trS 0.7500  minw 1.56e-02  P-evals 41712 cert-evals 3344  1s
+12544/62720  acc 20444 disc 12548 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 914817 cert-evals 40909  14s
+18816/62720  acc 64356 disc 18380 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 3315387 cert-evals 128305  47s
+25088/62720  acc 150417 disc 23936 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 8407745 cert-evals 299718  117s
+31360/62720  acc 238315 disc 29313 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 13424520 cert-evals 474641  187s
+37632/62720  acc 281349 disc 34302 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 15654565 cert-evals 559440  218s
+43904/62720  acc 306133 disc 38995 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 16766731 cert-evals 607441  234s
+50176/62720  acc 319402 disc 43748 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 17249682 cert-evals 632468  241s
+56448/62720  acc 325127 disc 48887 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 17398749 cert-evals 642797  244s
+62720/62720  acc 326753 disc 54655 fail 0  max trS 0.7500  minw 7.81e-03  P-evals 17422672 cert-evals 645551  245s
+slowest initial boxes: [(17.7, [(1.0, 1.03125), (0.125, 0.15625), (0.09375, 0.125)], 779), (17.5, [(0.96875, 1.0), (0.125, 0.15625), (0.09375, 0.125)], 759), (16.0, [(1.0, 1.03125), (0.125, 0.15625), (0.125, 0.15625)], 574), (15.8, [(0.96875, 1.0), (0.125, 0.15625), (0.125, 0.15625)], 574), (15.1, [(1.03125, 1.0625), (0.125, 0.15625), (0.125, 0.15625)], 833)]
+DONE direct: acc 326753 disc 54655 fail 0  max trS upper 0.749999551  minw 7.81e-03  P-evals 17422672 cert-evals 645551  245s

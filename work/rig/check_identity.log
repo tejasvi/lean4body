@@ -1,0 +1,13 @@
+(1) max |F prod s + P| / |P| over 2000 random points: 1.2485e-36
+(2) |grad| 8.6e-42  min eig Hess Phi (nontrivial) 0.31706645  min gen. eig mu 0.758297972974  1 - lam_max(G) 0.758297972974
+(2) |grad| 1.7e-42  min eig Hess Phi (nontrivial) 0.14423417  min gen. eig mu 0.757332763015  1 - lam_max(G) 0.757332763015
+(2) |grad| 2.9e-40  min eig Hess Phi (nontrivial) 0.044203044  min gen. eig mu 0.737298482631  1 - lam_max(G) 0.737298482631
+(2) |grad| 2.7e-41  min eig Hess Phi (nontrivial) 0.10936423  min gen. eig mu 0.733733946844  1 - lam_max(G) 0.733733946844
+(2) |grad| 1.5e-41  min eig Hess Phi (nontrivial) 0.24883137  min gen. eig mu 0.748779948879  1 - lam_max(G) 0.748779948879
+(2) |grad| 5.0e-41  min eig Hess Phi (nontrivial) 0.87218196  min gen. eig mu 0.751742036279  1 - lam_max(G) 0.751742036279
+(2) |grad| 1.2e-41  min eig Hess Phi (nontrivial) 0.06850462  min gen. eig mu 0.73074239123  1 - lam_max(G) 0.73074239123
+(2) |grad| 5.6e-42  min eig Hess Phi (nontrivial) 0.041792832  min gen. eig mu 0.791603779656  1 - lam_max(G) 0.791603779656
+(2) |grad| 1.3e-41  min eig Hess Phi (nontrivial) 0.33808034  min gen. eig mu 0.762458196279  1 - lam_max(G) 0.762458196279
+(2) |grad| 9.6e-42  min eig Hess Phi (nontrivial) 0.006188229  min gen. eig mu 0.729370140228  1 - lam_max(G) 0.729370140228
+(2) |grad| 2.6e-41  min eig Hess Phi (nontrivial) 0.23604002  min gen. eig mu 0.726718241135  1 - lam_max(G) 0.726718241135
+(2) |grad| 1.5e-41  min eig Hess Phi (nontrivial) 0.23182686  min gen. eig mu 0.72358718104  1 - lam_max(G) 0.72358718104

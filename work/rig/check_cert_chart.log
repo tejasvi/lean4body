@@ -1,0 +1,2 @@
+chart: 73728 initial boxes = the 8x96x96 grid; 18574 accepted + 55188 discarded leaves; every tree complete; max depth 1; accepted leaves by number of runs {1: 18574}; max certified tr S 0.749865726 < 0.75
+sampling: 1500 parameter samples, 288 central configurations; all in accepted leaves and inside an x-run; min (certified bound - tr S at the point) = 0.1466;  max lambda_max(G)/tr S = 0.8546; chart vs direct tr S max rel diff 7.2e-38

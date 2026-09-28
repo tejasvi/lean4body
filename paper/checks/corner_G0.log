@@ -1,0 +1,29 @@
+h1 = (2*alpha - 1)*(gamma - 2)/(gamma + 1)   h2 = (2*alpha + gamma)*(2*gamma - 1)/(gamma + 1)   h3 = -(2*alpha + gamma)*(gamma - 2)/(gamma + 1)   h4 = -(2*alpha - 1)*(2*gamma - 1)/(gamma + 1)
+12 D = 0  T = 0  beta = [0, 0]
+13 D = 8*(2*alpha - 1)*(gamma - 2)/(3*(gamma + 1))  T = 3/16  beta = [sqrt(3)*(gamma - 2)/(12*gamma), (gamma - 2)/(4*gamma)]
+14 D = -8*(2*alpha + gamma)*(gamma - 2)/(3*gamma + 3)  T = -3/16  beta = [sqrt(3)*(2 - gamma)/(12*gamma), (2 - gamma)/(4*gamma)]
+23 D = -8*(2*alpha - 1)*(2*gamma - 1)/(3*gamma*(gamma + 1))  T = -3*gamma/16  beta = [sqrt(3)*(1 - 2*gamma)/6, 0]
+24 D = 8*(2*alpha + gamma)*(2*gamma - 1)/(3*gamma*(gamma + 1))  T = 3*gamma/16  beta = [sqrt(3)*(2*gamma - 1)/6, 0]
+34 D = 16/9  T = -3*sqrt(gamma**2 - gamma + 1)/16  beta = [(1/6 - gamma/3)*sqrt(3*gamma**2 - 3*gamma + 3)/gamma, sqrt(gamma**2 - gamma + 1)/(2*gamma)]
+c0 = gamma**2/4 - gamma/4 + 1/4
+G0 = Matrix([[(-8*gamma**3 + 21*gamma**2 - 12*gamma + 4)/(16*(gamma**2 - gamma + 1)), sqrt(3)*(8*gamma**3 - 33*gamma**2 + 42*gamma - 16)/(48*(gamma**2 - gamma + 1))], [sqrt(3)*(8*gamma**3 - 33*gamma**2 + 42*gamma - 16)/(48*(gamma**2 - gamma + 1)), (-8*gamma**4 + 61*gamma**3 - 120*gamma**2 + 112*gamma - 32)/(48*gamma*(gamma**2 - gamma + 1))]])
+G0 at gamma = 1: Matrix([[5/16, sqrt(3)/48], [sqrt(3)/48, 13/48]])
+tr G0 - 1/4 - mu = 0
+det G0 - mu/4   = 0
+1/3 - mu = 2*(gamma - 1)**2/(3*gamma)
+alpha-dependence of G0: Matrix([[0, 0], [0, 0]])
+alpha=-0.30 gamma=1.20: |G(cert) - G0| = 2.48e-16
+alpha=0.20 gamma=0.80: |G(cert) - G0| = 4.2e-16
+alpha=0.00 gamma=1.00: |G(cert) - G0| = 4.98e-17
+b=1e-2 alpha=-0.4900 gamma=1.0005  in region: True  min g = 0.01385
+b=1e-2 alpha=-0.4990 gamma=1.0005  in region: True  min g = 0.00495
+b=1e-2 alpha=-0.4999 gamma=1.0005  in region: True  min g = 0.00406
+b=1e-2 alpha=0.4900 gamma=0.9995  in region: True  min g = 0.01358
+b=1e-2 alpha=0.4990 gamma=0.9995  in region: True  min g = 0.004681
+b=1e-2 alpha=0.4999 gamma=0.9995  in region: True  min g = 0.00379
+b=1e-3 alpha=-0.4900 gamma=1.0005  in region: True  min g = 0.01061
+b=1e-3 alpha=-0.4990 gamma=1.0005  in region: True  min g = 0.001623
+b=1e-3 alpha=-0.4999 gamma=1.0005  in region: True  min g = 0.0007241
+b=1e-3 alpha=0.4900 gamma=0.9995  in region: True  min g = 0.01036
+b=1e-3 alpha=0.4990 gamma=0.9995  in region: True  min g = 0.001372
+b=1e-3 alpha=0.4999 gamma=0.9995  in region: True  min g = 0.000474
